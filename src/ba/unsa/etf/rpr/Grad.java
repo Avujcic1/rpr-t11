@@ -48,4 +48,10 @@ public class Grad {
         return br;
     }
 
+    @Override
+    public String toString() {
+        if (getDrzava() == null) return getIme() + " - " + getBrStanovnika();
+        return getIme() + " (" + getDrzava().getIme() + ")" + " - " + getBrStanovnika();
+    }
+
 }
