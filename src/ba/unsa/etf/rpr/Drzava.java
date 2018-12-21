@@ -30,12 +30,17 @@ public class Drzava {
         this.ime = ime;
     }
 
-    public Grad getGlGrad() {
+    public Grad getGlavniGrad() {
         return glGrad;
     }
 
 
-    public void setGlGrad(Grad glGrad) {
+    public void setGlavniGrad(Grad glGrad) {
         this.glGrad = glGrad;
+    }
+
+    @Override
+    public String toString() {
+        return getIme();
     }
 }
