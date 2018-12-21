@@ -10,5 +10,11 @@ public class Main {
         glavniGrad();
     }
 
-    private static void
+    private static String ispisiGradove() {
+
+    }
+
+    private static void glavniGrad() {
+
+    }
 }
